@@ -16,7 +16,7 @@ public class HelloController {
         return "Hola mundo!";
     }
 
-    @GetMapping("/boostrapholamundo")
+    @GetMapping("/")
     public String boostrap(){
         return """
                 <!doctype html>
